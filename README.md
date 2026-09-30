@@ -23,6 +23,10 @@ generated game code, or saved game.
 | Supported dump | Redump `Galerians (Europe) (Disc 1).cue`, `Galerians (Europe) (Disc 2).cue`, `Galerians (Europe) (Disc 3).cue` as CUE/BIN or CHD |
 | BIOS | SCPH-5552 (Europe), 524288 bytes, SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09` |
 
+<!-- release-standard:bios -->
+**BIOS:** SCPH-5552 (Europe) retail BIOS, 524288 bytes, SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09`. Supply your own dump; releases do not use OpenBIOS.
+<!-- /release-standard:bios -->
+
 ## Setup
 
 1. Download the setup ZIP for your platform from [Releases](https://github.com/Alexbeav/galerians-recomp/releases)

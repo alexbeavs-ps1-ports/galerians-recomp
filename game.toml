@@ -6,6 +6,7 @@ name = "Galerians"
 id = "SLES-02328"
 players = 2
 exe = "disc/SLES_023.28"
+disc = "disc/Galerians (Europe) (Disc 1).cue"
 # Verified as one program on N images (verify_disc_set.py).
 # Disc 1 boots; the rest are data. The runtime builds its disc
 # roster from this list and mounts the SELECTED one (remembered
@@ -15,6 +16,11 @@ discs = [
     "disc/Galerians (Europe) (Disc 1).cue",
     "disc/Galerians (Europe) (Disc 2).cue",
     "disc/Galerians (Europe) (Disc 3).cue",
+]
+disc_serials = [
+    "SLES-02328",
+    "SLES-12328",
+    "SLES-22328",
 ]
 load_address = "0x80023000"
 entry_pc = "0x80165314"
@@ -27,15 +33,21 @@ out_dir = "disc"
 bin_name = "Galerians (Europe) (Disc 1).bin"
 cue_name = "Galerians (Europe) (Disc 1).cue"
 boot_exe = "SLES_023.28"
-known_sizes = [683248944]
+known_sizes = [683248944, 672867216, 595923888]
 known_md5 = [
   "6ff87c94b34d9371fd57a744b245a74e",
+  "fdc2d4e05af3a9cded3c667c77544fc5",
+  "3a54d9ce02016a20c0dc085b21bf1975",
 ]
 known_sha1 = [
   "b35fe93b79226fb23f31a4822487d8cbade42d89",
+  "77637261f9b2c61979c0be735fa43dc7a5457512",
+  "3f0656c644b243bf7c9c61bf45d974a2244b170f",
 ]
 known_crc32 = [
   "4f8c21f8",
+  "b6b5fe85",
+  "912a15df",
 ]
 
 [recompiler]
